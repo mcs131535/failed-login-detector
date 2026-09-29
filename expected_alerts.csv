@@ -1,0 +1,5 @@
+source_ip,attempts,first_seen,last_seen,usernames,severity,attack_type,successful_login,risk_score
+192.168.1.25,5,2026-09-29 08:01:12,2026-09-29 08:01:40,admin,HIGH,Possible Brute Force,NO,60
+10.10.10.15,3,2026-09-29 08:07:14,2026-09-29 08:09:33,jdoe,MEDIUM,Possible Brute Force,NO,30
+10.10.10.50,5,2026-09-29 09:00:01,2026-09-29 09:00:35,"admin, bob, john, jsmith, mary",HIGH,Possible Password Spraying,NO,70
+192.168.1.100,5,2026-09-29 10:00:01,2026-09-29 10:00:29,admin,HIGH,Possible Brute Force,YES,80
